@@ -1,0 +1,13 @@
+Sildur Vibrant Lite ChatGPT Optimized v3
+
+Debug distance controls:
+- Waving Render Distance
+- Water Wave Distance
+- Water Effects Distance (reflections/refraction/caustics)
+- Godray Distance
+- Volumetric Lighting Distance
+- Bloom Distance
+
+0 = Unlimited. These settings only limit shader-side effects. They do not replace Minecraft render distance or Sodium/Iris occlusion/frustum culling.
+
+Existing distance settings such as Shadows Render Distance and POM Render Distance remain available in their original menus.

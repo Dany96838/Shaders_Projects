@@ -1,0 +1,28 @@
+Sildur Vibrant Lite - ChatGPT Optimized v2
+
+"
+"Target: Minecraft Java 26.2 + Fabric + Iris/Sodium + MobileGlues.
+
+"
+"v2 changes:
+"
+"- Keeps Iris frustum culling enabled and explicitly enables occlusion.culling.
+"
+"- Uses Iris reversed shadow culling for the shadow pass.
+"
+"- Shadow samples: 4 -> 2.
+"
+"- Shadow distance: 70 -> 60.
+"
+"- Volumetric cloud raymarch iterations: 4 -> 2.
+"
+"- Godrays disabled by default (the main per-pixel post effect removed).
+"
+"- Waving_Entities disabled by default; grass/leaves/vines/water movement remain enabled.
+
+"
+"This does not replace Sodium's renderer-side culling. Sodium should remain installed.
+"
+"The shader only exposes/requests Iris culling directives; actual terrain occlusion/draw submission
+"
+"is still handled by the renderer.
